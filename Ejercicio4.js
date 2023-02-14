@@ -8,6 +8,7 @@ let personas = [
   { nombre: 'Alberto', apellido: 'Rus', edad: 24 },
   { nombre: 'Alberto', apellido: 'Rodriguez', edad: 80 },
 ];
+
 let personasOrdenadas = personas.sort((a, b) => {
   if (a.nombre < b.nombre) {
     return -1;
